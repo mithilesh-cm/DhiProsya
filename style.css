@@ -1,0 +1,256 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.top{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  z-index: 1000;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    height: 400vh;
+    overflow-x: hidden;
+  margin-top: 15px; /* Match the height of your top-bar */
+}
+
+.italiana-regular {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.heading{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 75vh;
+    font-family: 'Italiana';
+    align-items: center;
+    font-size: 50px;
+}
+.top-right {
+  font-size: large;
+  color: white;
+  font-family: "Imbue", sans-serif;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+
+.top-link:hover {
+  color: gold;
+}
+
+.shop {
+  font-size: 20px !important;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+a:hover {
+    color: gold;
+  }
+  
+.link-wrap{
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left: 250px;
+    gap: 20px;
+}
+
+.links{
+    color: black;
+    background-color: gold;
+    font-family: 'Italiana';
+    border-radius: 20px;
+    padding: 20px 60px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.links:hover{
+    background-color: black;
+    color: gold;
+    transition: 0.2s;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left:680px; ;
+    width: 90px;
+    height: 90px;
+}
+
+.top-left{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    display: flex;
+    gap: 5px;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+
+}
+  
+.insta{ 
+    width: 20px;
+    height: 20px;
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 3px;
+
+
+}
+
+img:hover {
+    color: gold;
+    transition: 0.2s;
+  }
+
+.section {
+  display: flex;
+  gap: 50px;
+  padding: 100px;
+  
+}
+
+.sticky-image {
+  flex: 1;
+  position: sticky;
+  width: 407.81px;
+  height: 725px;
+  border-radius: 30px;
+  position: absolute;
+  top: 775px;
+  left: 75px;
+}
+
+.sticky-image img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.scroll-text {
+
+border-radius: 20px;
+color: white;
+font-family: 'Joana';
+font-size: 40px;
+position: absolute;
+top: 850px;
+left: 600px;
+right: 20px;
+overflow-y: scroll;
+height: 600px; 
+padding-top:0px;  
+}
+
+.text-block {
+  background-color: rgb(0, 0, 0);
+  padding-top: 0px;
+  color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  height:200px;
+  font-family: "joana";
+}
+
+.reavel{
+    color: white;
+    font-family: 'Italiana';
+    text-align: center;
+    margin-top: 400px;
+    text-align: left;
+    font-family: "joana";
+}
+  
+.th{
+        color: white;
+        font-family: 'Italiana';
+        font-size: 50px;
+        text-align: center;
+        margin-top: 900px;
+}
+
+.shoping{
+    color: white;
+    font-family: 'Khand';
+    font-size: 20px;
+    line-height: 1px;;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 150px;
+    row-gap: 40px;  
+}   
+
+.T{
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+
+}
+
+.T img {
+  display: block;
+  margin: 0;
+}
+
+.R{
+  color: white;
+  font-size: 70px;
+  font-family: "imbue";
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 50px;
+  font-weight: 200; 
+}
+
+
+.video {
+  display: flex;
+  gap: 50px; /* Space between videos */
+  margin-top: 600px;
+  margin-left: 50px;
+  row-gap: 10px; /* Space between rows */
+  color: white;
+  font-family: 'Khand', sans-serif;
+  font-size: 28px;
+}
+
+.video-item {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  max-width: 560px;
+}
+
